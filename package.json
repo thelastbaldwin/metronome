@@ -1,0 +1,25 @@
+{
+  "name": "metronome",
+  "version": "1.0.0",
+  "description": "This application shows how to use a collaboration between a setTimeout scheduler and the Web Audio scheduler to properly implement rock-solid timing for audio applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelastbaldwin/metronome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelastbaldwin/metronome/issues"
+  },
+  "homepage": "https://github.com/thelastbaldwin/metronome#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "http-server": "^0.12.3"
+  }
+}
